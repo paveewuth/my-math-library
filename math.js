@@ -1,9 +1,6 @@
-function SubmitEvent(a,b){
-    return a+b
-}
 function sum(a,b){
     if(Array.isArray(a)){
-        let total=0
+        let total=1
         for(let i=0;i<a.length;i++){
             total+=a[i]
         }
